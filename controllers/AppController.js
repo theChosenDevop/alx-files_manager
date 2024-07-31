@@ -9,3 +9,5 @@ const AppController = {
     res.status(200).send({ redis: redisStatus, db: sbStatus });
   },
 };
+
+export default AppController;
